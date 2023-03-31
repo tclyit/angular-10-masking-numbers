@@ -1,0 +1,14 @@
+<div>
+  <h3>Masking numbers:</h3>
+  <input
+    #maskNum
+    type="text"
+    name="makingNumber"
+    maxlength="19"
+    (input)="onChange($event)"
+    (change)="onChange($event)"
+    (keydown)="onKeyDown($event)"
+    (focus)="onFocus($event)"
+    (blur)="onBlur($event)"
+  />
+</div>
